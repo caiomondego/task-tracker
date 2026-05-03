@@ -4,7 +4,7 @@ import json
 if len(sys.argv) < 2:
     print("Use: add | list | done | remove")
     sys.exit()
-g
+    
 comando = sys.argv[1]
 
 if comando == "add":
